@@ -13,7 +13,7 @@ const app = express();
 dotenv.config();
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://vt-streaming.vercel.app/",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   optionsSuccessStatus: 204,
